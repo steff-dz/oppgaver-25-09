@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: darkorchid;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: yellow;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    padding-left: 20px;
+}
+
+#container {
+    margin-top: 5px;
+}
+
+#container-2 {
+    margin: 5px 0 0 30px;
+}
+
+label, input {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#inp-border-rad {
+    width: 45%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(4, 139, 168);
+    position: absolute;
+    top: 25%;
+    box-shadow: -10px 8px 0;
+}

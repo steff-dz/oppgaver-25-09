@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 15</title>
+</head>
+<body>
+
+<button id="btn">Click here to change the color</button>
+      
+
+
+<script>
+    const BTN = document.querySelector("#btn");
+    const BODY = document.querySelector("body");
+    //console.log(BTN,BODY);
+
+    function endreBodyOgKnapp(){
+        BODY.style.backgroundColor = "black";
+        BTN.style.backgroundColor = "white";
+        BTN.style.color = "blue";
+    };
+
+    //BTN.addEventListener("click", endreBodyOgKnapp);
+
+    BTN.onclick = endreBodyOgKnapp;
+
+
+
+</script>
+</body>
+</html>

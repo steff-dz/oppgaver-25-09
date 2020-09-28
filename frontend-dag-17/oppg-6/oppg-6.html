@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 6 Slider</title>
+    <link rel="stylesheet" href="./oppg-6.css">
+    <script src="./oppg-6.js" defer></script>
+</head>
+<body>
+    <!-- Use Javascript to make the box bigger or wider/smaller with the slider. -->
+
+    <header>
+        <div id="container">
+
+            <label class="size" for="size">Change box size:</label>
+            <input id="inp-size" type="range" min="0" max="500" value="100" name="size">
+    
+            <label class="size" for="border-rad">Change border radius:</label>
+            <input id="inp-border-rad" type="range" min="0" max="500" value="100" name="border-rad">
+    
+            <label class="color" for="redSlider">Red color slider:</label>
+            <input type="range" id="rangeRed" value="4" min="0" max="255" name="redSlider">
+    
+            <label class="color" for="blueSlider">Blue slider:</label>
+            <input type="range" id="rangeBlue" value="139" min="0" max="255" name="blueSlider">
+    
+            <label class="color" for="greenSlider">Green slider:</label>
+            <input type="range" id="rangeGreen" value="168" min="0" max="255" name="greenSlider">
+        </div>
+
+        <div id="container-2">
+            <label for="">Horizontal Shadow Slider:</label>
+            <input type="range" id="shadowXSlider" value="-10"
+            min="-100" max="500">
+
+            <label for="">Vertical Shadow Slider:</label>
+            <input type="range" id="shadowYSlider" value="8" min="-100" max="500">
+        </div>
+       
+    </header>
+    
+    <main>
+        <div id="box">
+
+        </div>
+    </main>
+
+
+</body>
+</html>
